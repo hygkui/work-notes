@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="_c4rKkL9RZQMV00QYaZP" name="Page-1">
+        <mxGraphModel dx="838" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="准备扫码 登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="请求后端，获取qrcode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="微信扫码，获取code&lt;br&gt;根据上一步设置的redirect—url跳转，携带code" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="请求后端&lt;br&gt;wx_login&lt;br&gt;携带参数 code" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="1.根据code获取access_token&lt;br&gt;2.使用access_token拿到userinfo&lt;br&gt;3.userinfo匹配用户系统&lt;br&gt;4.创建或验证用户，生成jwt&lt;br&gt;5.页面重定向，携带token参数" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="605" width="230" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="重定向的页面拿到token，本地存储，请求自动载入headers" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
