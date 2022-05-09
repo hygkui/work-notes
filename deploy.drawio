@@ -1,0 +1,123 @@
+<mxfile host="65bd71144e">
+    <diagram id="_c7xDZrrNmTJLBexNrLa" name="第 1 页">
+        <mxGraphModel dx="891" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="33" value="" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="760" width="140" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="185" width="180" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="343" y="375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="手动同步&lt;br&gt;组件、插件、项目资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="5">
+                    <mxGeometry x="-0.1747" relative="1" as="geometry">
+                        <mxPoint x="18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="html目录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="73" y="345" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="html目录&lt;br&gt;（sfs云盘）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="453" y="345" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="仅同步数据，不同步数据结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="-0.28" y="-2" relative="1" as="geometry">
+                        <mxPoint x="32" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="数据库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="113" y="485" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="数据库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="453" y="485" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="678" y="275" as="sourcePoint"/>
+                        <mxPoint x="513" y="215" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="688" y="305" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="新部署包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="688" y="265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="vd-server" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="453" y="215" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="vd-server" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="73" y="215" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="58" y="185" width="150" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="54.19" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="108" y="155" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="华为云" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="488" y="155" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="vdServer打包" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="775" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="编译manage项目" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="855" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="编译base项目" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="935" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeWidth=4;" edge="1" parent="1" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="各子系统代码&lt;br&gt;git tag&lt;br&gt;标记版本" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="760" width="120" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="更新的组件打包" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="1015" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeWidth=4;" edge="1" parent="1" source="26" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="242" y="760" width="140" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=4;" edge="1" parent="1" source="29" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="上传到服务器" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="775" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=4;" edge="1" parent="1" source="30" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="解压更新配置&lt;br&gt;重启服务" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="855" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=4;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="测试单个ecs" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="935" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="更新到其他ecs" style="whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="1015" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
